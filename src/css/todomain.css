@@ -1,0 +1,36 @@
+.toDoMainContainer{
+    display: grid;
+    grid-template-rows: 1fr 6fr;
+}
+
+/* nav */
+.toDoMainContainer .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+
+.toDoMainContainer .nav img{
+    width: 25px;
+    height: auto;
+}
+
+.toDoMainContainer .right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.toDoMainContainer #profile{
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+}
+
+/* Note Container */
+
+.noteContainer{
+    background: red;
+}
