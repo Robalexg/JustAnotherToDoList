@@ -5,7 +5,7 @@ import './css/expandednav.css'
 const expandedNav = () => {
 
     //menu items
-    let menuItems = ['All Tasks','To Do','In Progress','Done']
+    let menuItems = ['All Tasks (0)','To Do (0)','In Progress (0)','Done (0)']
 
     //create elements
     let div = document.createElement('div')

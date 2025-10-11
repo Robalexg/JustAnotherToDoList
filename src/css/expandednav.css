@@ -28,6 +28,12 @@
     gap: 20px;
 }
 
+.expandedNav li:hover {
+    cursor: pointer;
+}
+
+
+
 .expandedNav li:hover{
     color: #1c1d2290;
 }

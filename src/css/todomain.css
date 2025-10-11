@@ -17,11 +17,22 @@
     height: auto;
 }
 
+.toDoMainContainer .nav img:hover{
+    cursor: pointer;
+}
+
+
+.toDoMainContainer .nav #date{
+    color: #1C1D2250;
+}
+
 .toDoMainContainer .right{
     display: flex;
     align-items: center;
     gap: 15px;
 }
+
+
 
 .toDoMainContainer #profile{
     border-radius: 100px;
@@ -32,5 +43,104 @@
 /* Note Container */
 
 .noteContainer{
-    background: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+    column-gap: 10px;
 }
+
+.noteContainer .noteCard{
+    border: 3px dotted rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;   
+}
+
+.noteContainer .noteCard .header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.noteContainer .noteCard .header h1{
+    font-size: 12px;
+    color: #1C1D2250;
+}
+
+.noteCard #addIcon{
+    width: 20px;
+    height: auto;
+}
+
+.noteCard .newBtnContainer{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.noteCard .newBtnContainer:hover{
+    cursor: pointer;
+}
+
+
+.note{
+    width: 100%;
+}
+
+.note img {
+    width: 25px;
+    height: auto;
+}
+
+
+.note .noteHeader{
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.note{
+    border: 3px solid #1C1D2205;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.note #date {
+    /* display: inline-block; */
+    background: #1C1D2215;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.note #editBtn{
+    font-size: 12px;
+    /* background: #ff4949; */
+    border-radius: 100px;
+    padding: 2px 5px;
+    color: red;
+}
+.note #editBtn:hover{
+    cursor: pointer;
+    color: hsla(0, 100%, 50%, 0.507);
+
+}
+
+
+.note #footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
